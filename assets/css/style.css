@@ -13,6 +13,15 @@ a {
     text-decoration: none;
   }
 
+  a:visited {
+    color: #276678;
+  }
+  
+  a:hover,
+  a:focus {
+    color: black;
+  }
+
 nav {
     padding-top: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -41,6 +50,9 @@ main {
 
 footer {
     text-align: center;
+    margin: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
 }
 
 .about-me {
@@ -49,6 +61,7 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     padding: 10px 20px 10px 20px;
+    float: left;
 }
 
 .about-me img {
@@ -56,3 +69,18 @@ footer {
     width: 100%;
     border-radius: 2%;
 }
+
+.container {
+    max-width: 1800px;
+  
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+  .top-text {
+    padding: 10px;
+  }
